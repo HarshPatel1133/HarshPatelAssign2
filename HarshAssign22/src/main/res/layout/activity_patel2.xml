@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatelActivity2"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/harshImg"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/pizzaTypeTag"
+        android:textSize="30sp"
+        android:textColor="#000000"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/harshPizzaTypeRdGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/harshCheese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaType1"
+                />
+            <RadioButton
+                android:id="@+id/harshVeggie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaType2"
+                />
+            <RadioButton
+                android:id="@+id/harshPeppperoni"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaType3"
+                />
+
+            <RadioButton
+                android:id="@+id/harshSupreme"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaType4"
+                />
+            <RadioButton
+                android:id="@+id/harshMeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaType5"
+                />
+        </RadioGroup>
+
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/pizzaSizeTag"
+        android:textSize="30sp"
+        android:textColor="#000000"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/harshPizzaSizeRdGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaSize1"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaSize2"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaSize3"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaSize4"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pizzaType5"
+                />
+        </RadioGroup>
+
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/toppingsTag"
+        android:textColor="#000"
+        android:textSize="30sp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/harshToppingPineapple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping1"
+                />
+            <CheckBox
+                android:id="@+id/harshToppingMushroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping2"/>
+            <CheckBox
+                android:id="@+id/harshToppingOnion"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping3"/>
+            <CheckBox
+                android:id="@+id/harshToppingGreenOlive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping4"/>
+            <CheckBox
+                android:id="@+id/harshToppingSpinach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping5"/>
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/harshNextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/nextButton"/>
+
+</LinearLayout>

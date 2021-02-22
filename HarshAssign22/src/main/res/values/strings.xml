@@ -1,3 +1,72 @@
+<!--harsh patel N01351133 Section C-->
 <resources>
     <string name="app_name">Harsh Patel N01351133</string>
+
+    <string name="pizzanova">pizzanova</string>
+    <string name="pizza_pizza">Pizza Pizza</string>
+    <string name="popularpizza">popularPizza</string>
+
+    <string name="nextButton">Next</string>
+
+    <string name="toast_One">Please select atleast one</string>
+
+    <string name="pizzaTypeTag">Pizza Type</string>
+    <string name="pizzaType1">Cheese Pizza</string>
+    <string name="pizzaType2">Veggie Pizza</string>
+    <string name="pizzaType3">Pepperoni Pizza</string>
+    <string name="pizzaType4">Supreme Pizza</string>
+    <string name="pizzaType5">Meat Pizza</string>
+
+    <string name="pizzaSizeTag">Pizza Size</string>
+
+    <string name="pizzaSize1">Small</string>
+    <string name="pizzaSize2">Medium</string>
+    <string name="pizzaSize3">Large</string>
+    <string name="pizzaSize4">Extra Large</string>
+
+    <string name="pizzaToppingTag">Pizza Topping</string>
+
+    <string name="toppingsTag">Toppings</string>
+    <string name="topping1">Pineapple</string>
+    <string name="topping2">Mushroom</string>
+    <string name="topping3">Onions</string>
+    <string name="topping4">Green Olives</string>
+    <string name="topping5">Spinach</string>
+
+
+    <string name="selectionToast">Please Select from the following</string>
+    <string name="orderscreen">Order Screen</string>
+    <string name="help_menu">Help</string>
+    <string name="help_pizza">Pizza</string>
+    <string name="menu3">Harsh Patel. I like this app.</string>
+    <string name="pizza_websitename">Pizza\'s website</string>
+
+
+    <string name="nameHint">Enter Name</string>
+    <string name="creditHint">Enter Credit Info</string>
+    <string name="addHint">Enter Address</string>
+
+    <string name="provinceTag">Province</string>
+    <string-array name="province">
+        <item>ON</item>
+        <item>QC</item>
+        <item>NS</item>
+        <item>NB</item>
+        <item>MB</item>
+        <item>BC</item>
+        <item>PE</item>
+        <item>SK</item>
+        <item>AB</item>
+        <item>NL</item>
+    </string-array>
+
+    <string name="orderTag">Order</string>
+
+    <string name="toast3">Please Fill all the details</string>
+
+    <string name="nameTag">Name</string>
+    <string name="addTag">Address</string>
+    <string name="creditTag">Credit Card</string>
+    <string name="checkOutBtnTag">Check out</string>
+
 </resources>

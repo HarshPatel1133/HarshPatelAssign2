@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatelActivity3"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:text="@string/pizzaTypeTag"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/harshPizaType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp"
+                    />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="@string/pizzaSizeTag"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/harshSizeType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/pizzaToppingTag"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/harshToppType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/harshEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nameHint"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/harshEdtCreditCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/creditHint"
+        android:inputType="number"
+        android:maxLength="16"/>
+
+
+    <EditText
+        android:id="@+id/harshEdtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addHint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/provinceTag"
+        android:textSize="18sp"
+        android:textColor="#000"/>
+    <Spinner
+        android:id="@+id/harshProvinceSpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/harshOrderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/orderTag"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>
