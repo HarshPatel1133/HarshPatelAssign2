@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HarshAssign2">
         <activity android:name=".PatelActivity4"></activity>
-        <activity android:name=".PatelActivity3" />
-        <activity android:name=".PatelActivity2" />
+        <activity android:name=".PatelActivity3" android:parentActivityName=".PatelActivity2" />
+        <activity android:name=".PatelActivity2" android:parentActivityName=".HarshActivity" />
         <activity android:name=".HarshActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

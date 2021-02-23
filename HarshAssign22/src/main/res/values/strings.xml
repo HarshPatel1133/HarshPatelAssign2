@@ -6,67 +6,67 @@
     <string name="pizza_pizza">Pizza Pizza</string>
     <string name="popularpizza">popularPizza</string>
 
-    <string name="nextButton">Next</string>
+    <string name="nextButton">Next Step</string>
 
-    <string name="toast_One">Please select atleast one</string>
+    <string name="toast_One">Select any one restaurant from above</string>
 
-    <string name="pizzaTypeTag">Pizza Type</string>
-    <string name="pizzaType1">Cheese Pizza</string>
-    <string name="pizzaType2">Veggie Pizza</string>
-    <string name="pizzaType3">Pepperoni Pizza</string>
-    <string name="pizzaType4">Supreme Pizza</string>
-    <string name="pizzaType5">Meat Pizza</string>
+    <string name="pizzaTypeTag">Different types of Pizas</string>
+    <string name="pizzaType1">Tandoori Pizza</string>
+    <string name="pizzaType2">Margerita Pizza</string>
+    <string name="pizzaType3">Greek Pizza</string>
+    <string name="pizzaType4">Veggie Pizza</string>
+    <string name="pizzaType5">Supreme Pizza</string>
 
-    <string name="pizzaSizeTag">Pizza Size</string>
+    <string name="pizzaSizeTag">Different Sizes of Pizza</string>
 
     <string name="pizzaSize1">Small</string>
     <string name="pizzaSize2">Medium</string>
     <string name="pizzaSize3">Large</string>
     <string name="pizzaSize4">Extra Large</string>
 
-    <string name="pizzaToppingTag">Pizza Topping</string>
+    <string name="pizzaToppingTag">Different Toppings of Pizza</string>
 
-    <string name="toppingsTag">Toppings</string>
-    <string name="topping1">Pineapple</string>
-    <string name="topping2">Mushroom</string>
-    <string name="topping3">Onions</string>
-    <string name="topping4">Green Olives</string>
-    <string name="topping5">Spinach</string>
+    <string name="toppingsTag">Different Toppings of Pizza </string>
+    <string name="topping1">Onions</string>
+    <string name="topping2">Black Peppar</string>
+    <string name="topping3">Tomatoes</string>
+    <string name="topping4">Mashrooms</string>
+    <string name="topping5">Black Olives</string>
 
 
-    <string name="selectionToast">Please Select from the following</string>
+    <string name="selectionToast">All fields are required.</string>
     <string name="orderscreen">Order Screen</string>
     <string name="help_menu">Help</string>
     <string name="help_pizza">Pizza</string>
-    <string name="menu3">Harsh Patel. I like this app.</string>
+    <string name="menu3">Harsh Patel. This is intersting app.</string>
     <string name="pizza_websitename">Pizza\'s website</string>
 
 
-    <string name="nameHint">Enter Name</string>
-    <string name="creditHint">Enter Credit Info</string>
-    <string name="addHint">Enter Address</string>
+    <string name="nameHint">Name</string>
+    <string name="creditHint">Credit Card Number</string>
+    <string name="addHint">Delivery Address</string>
 
-    <string name="provinceTag">Province</string>
+    <string name="provinceTag">Select Your Province</string>
     <string-array name="province">
-        <item>ON</item>
-        <item>QC</item>
-        <item>NS</item>
-        <item>NB</item>
-        <item>MB</item>
-        <item>BC</item>
-        <item>PE</item>
-        <item>SK</item>
-        <item>AB</item>
-        <item>NL</item>
+        <item>Ontario</item>
+        <item>Quebec</item>
+        <item>Nova Scotia</item>
+        <item>Manitoba</item>
+        <item>Alberta</item>
+        <item>Prince Edward Island</item>
+        <item>New Foundland</item>
+        <item>New Brunswick</item>
+        <item>Saskatchewan</item>
+        <item>British Columbia</item>
     </string-array>
 
-    <string name="orderTag">Order</string>
+    <string name="orderTag">Confirmation</string>
 
-    <string name="toast3">Please Fill all the details</string>
+    <string name="toast3">Fill all details carefully as mentioned.</string>
 
     <string name="nameTag">Name</string>
     <string name="addTag">Address</string>
     <string name="creditTag">Credit Card</string>
     <string name="checkOutBtnTag">Check out</string>
-
+    <string name="toast_message">Your order is confirmed.</string>
 </resources>

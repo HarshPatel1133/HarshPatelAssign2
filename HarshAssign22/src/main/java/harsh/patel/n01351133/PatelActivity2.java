@@ -31,6 +31,7 @@ public class PatelActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         setContentView(R.layout.activity_patel2);
         pizaImg = findViewById(R.id.harshImg);
         getSupportActionBar().setDisplayShowHomeEnabled(true);

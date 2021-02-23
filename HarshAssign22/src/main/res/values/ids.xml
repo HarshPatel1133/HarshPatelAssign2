@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="harshMenu" type="id" />
+    <item name="harshpizza" type="id" />
+    <item name="myname" type="id" />
+    <item name="harshpizzanova" type="id" />
+    <item name="harshPizza" type="id" />
+    <item name="harshNextBtn" type="id" />
+    <item name="harshPizzaSizeRdGroup" type="id" />
+    <item name="harshPizzaTypeRdGroup" type="id" />
+    <item name="harshToppingPineapple" type="id" />
+    <item name="harshToppingGreenOlive" type="id" />
+    <item name="harshToppingMushroom" type="id" />
+    <item name="harshToppingOnion" type="id" />
+    <item name="harshToppingSpinach" type="id" />
+    <item name="harshImg" type="id" />
+</resources>

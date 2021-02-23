@@ -32,6 +32,7 @@ public class PatelActivity3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         setContentView(R.layout.activity_harsh3);
         pizaTypeTxt = findViewById(R.id.harshPizaType);
         pizaSizeTxt = findViewById(R.id.harshSizeType);
